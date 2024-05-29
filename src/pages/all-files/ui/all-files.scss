@@ -1,0 +1,11 @@
+.all-files {
+    margin: 0 auto;
+    width: 1200px;
+    padding-top: 20px;
+
+    &__title {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }    
+}

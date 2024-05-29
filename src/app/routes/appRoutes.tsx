@@ -3,7 +3,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 // Components
 import Layout from "../layout/layout";
-import AllFiles from "@/pages/all-files/ui/all-files";
+import { AllFiles } from "@/pages/all-files/ui/all-files";
 import Subscriptons from "@/pages/subscriptons/ui/subscriptons";
 
 // Routes
