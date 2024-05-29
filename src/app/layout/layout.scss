@@ -1,0 +1,23 @@
+.layout {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+        "leftPanel header"
+        "leftPanel pagesContent"
+    ;
+    height: 100vh;
+    overflow: hidden;
+
+    .left-panel {
+        grid-area: leftPanel;
+    };
+
+    .header {
+        grid-area: header;
+    };
+
+    .main {
+        grid-area: pagesContent;
+    };
+}

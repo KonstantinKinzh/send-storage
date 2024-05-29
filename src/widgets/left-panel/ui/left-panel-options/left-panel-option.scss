@@ -1,0 +1,25 @@
+.link-page {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    width: 100%;
+    text-decoration: none;
+    cursor: pointer;
+
+    &__icon {
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+    }
+
+    &__title {
+        color: #ffffff;
+        font-weight: 500;
+        font-size: 18px;
+        transition: color .2s ease;
+    }
+
+    &__title:hover {
+        color: #b5b3b3;
+    }
+}

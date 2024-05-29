@@ -1,0 +1,22 @@
+.top-panel {
+
+    background-color: #6600FF;
+
+    &__wrapper {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.options-users {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 10px;
+}

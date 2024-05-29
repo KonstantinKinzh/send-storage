@@ -1,0 +1,18 @@
+.profile-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #ffffff;
+    transition: background-color .3s ease;
+
+    &__title {
+        font-weight: 500;
+        font-size: 14px;
+        // line-height: 26px;
+        
+    }
+}
