@@ -1,6 +1,7 @@
 // Components
 import { OptionsWorkingFiles } from "@/widgets/options-working-files/ui/options-working-files";
 import { Title } from "@/shared/ui/title";
+import { ArrangePanel } from "@/widgets/arrange-panel";
 
 // Icons
 import GearIcon from "@/shared/icons/icons-title/gear.png";
@@ -20,6 +21,8 @@ export function AllFiles() {
                     alt="Иконка шестерни"
                 />
             </div>
+
+            <ArrangePanel/>
         </div>
     );
 };
