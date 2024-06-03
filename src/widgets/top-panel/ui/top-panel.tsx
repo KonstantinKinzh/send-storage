@@ -1,6 +1,10 @@
 // Components
 import { Search } from "@/features/search/ui/search";
 import { Profile } from "@/features/profile";
+
+import { ViewApp } from "@/features/top-panel-btns/ui/view-app";
+
+// Не за быть удалить
 import { BtnShowMenu } from "@/shared/ui/btn-show-menu";
 
 // Icons
@@ -18,15 +22,14 @@ export function TopPanel() {
         <Search />
 
         <div className="options-users">
+          <ViewApp />
           <BtnShowMenu
-            icon={ViewAppIcon}
-            alt="Иконка показа приложений"
-          />
-          <BtnShowMenu
+            className="w-[15px] h-[15px] p-[5px]"
             icon={QuestionIcon}
             alt="Иконка знака вопроса"
           />
           <BtnShowMenu
+            className="w-[15px] h-[15px] p-[5px]"
             icon={BellIcon}
             alt="Иконка колокольчика"
           />

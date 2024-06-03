@@ -1,19 +1,17 @@
 .btn-show-menu {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 32px;
-    height: 32px;
+    width: 20px;
+    height: 20px;
     border-radius: 8px;
     cursor: pointer;
-    transition: background-color .3s ease;
-
-    &__icon {
-        width: 20px;
-        height: 20px;
-    }
+    transition: all .3s ease;
+    box-sizing: content-box;
+    z-index: 1;
 
     &:hover {
-        background-color: #dad9d9;
+        background-color: #909090;
     }
 }

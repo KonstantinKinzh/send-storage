@@ -1,0 +1,43 @@
+.header-win {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #d4d4d4;
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    &__title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+    }
+
+    &__icon-folder {
+        width: 40px;
+        height: 40px;
+    }
+
+    &__name-title {
+        font-weight: 500;
+        font-size: 25px;
+    }
+
+    &__icon-cross {
+        padding: 5px;
+        width: 15px;
+        height: 15px;
+        cursor: pointer;
+        box-sizing: content-box;
+    }
+}

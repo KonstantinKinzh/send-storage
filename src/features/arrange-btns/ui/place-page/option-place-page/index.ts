@@ -1,0 +1,1 @@
+export { OptionPlacePage } from "./option-place-page";

@@ -1,0 +1,1 @@
+export {MenuOpenFiles} from "./menu-open-files";

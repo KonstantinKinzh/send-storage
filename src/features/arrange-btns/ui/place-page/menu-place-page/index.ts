@@ -1,0 +1,1 @@
+export { MenuPlacePage } from "./menu-place-page";

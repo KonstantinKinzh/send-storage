@@ -3,7 +3,7 @@ import { ShowLatest } from "@/features/show-latest";
 import { ShowTagged } from "@/features/show-tagged";
 import { SelectFile } from "@/features/select-file/ui/select-file";
 import { PlacePage } from "@/features/arrange-btns/ui/place-page";
-import { OpenFilesIn } from "@/features/arrange-btns/ui/open-files-in";
+import { OpenFiles } from "@/features/arrange-btns/ui/open-files";
 
 // Styles
 import "./arrange-panel.scss";
@@ -20,8 +20,8 @@ export function ArrangePanel() {
 
             <div className="arrange-panel__right-btns">
                 <SelectFile/>
-                <PlacePage/>
-                <OpenFilesIn/>
+                <PlacePage/> {/* Сейчас переделываю его в фичу, а затем закину сюда вместо этого */}
+                <OpenFiles/>
             </div>
 
 

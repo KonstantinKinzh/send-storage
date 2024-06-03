@@ -1,0 +1,1 @@
+export { TranspBack } from "./transp-back";

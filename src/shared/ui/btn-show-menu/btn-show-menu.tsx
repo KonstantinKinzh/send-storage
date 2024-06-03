@@ -1,8 +1,12 @@
+import { MouseEventHandler } from "react";
+
 // Interface
 interface IBtnShowMenu {
-  children?: React.ReactNode,
+  onHandleClick?: MouseEventHandler<HTMLDivElement>,
+  className?: string,
   icon?: string,
   alt?: string,
+  children?: React.ReactNode,
 };
 
 // Styles
@@ -10,21 +14,15 @@ import "./btn-show-menu.scss";
 
 export const BtnShowMenu = (props: IBtnShowMenu) => {
 
-  const { children, icon, alt, } = props;
+  const { onHandleClick, className, icon, alt, children } = props;
 
   return (
-    <div className="btn-show-menu">
-      {
-        icon &&
-        <img
-          className="btn-show-menu__icon"
-          src={icon}
-          alt={alt}
-        />
-      }
-
+    <div
+      onClick={onHandleClick}
+      className={`btn-show-menu ${className}`}
+    >
+      {icon && <img src={icon} alt={alt} />}
       {children}
-
     </div>
   );
 };

@@ -1,0 +1,20 @@
+.menu-open-files {
+    // max-width: 360px;
+    width: 520px;
+    height: auto;
+    position: absolute;
+    right: 0;
+    border: 1px solid #d4d4d4;
+    background-color: #ffffff;
+    z-index: 3;
+
+    &__title{
+        margin-bottom: 5px;
+        padding-top: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-weight: 500;
+        font-size: 14px;
+        color: #A0A0A4;
+    }
+}

@@ -1,19 +1,21 @@
 // Interface
 interface IBtnActionFiles {
+    onHandleClick?: MouseEventHandler<HTMLDivElement>
     icon?: string,
     alt?: string,
     title?: string,
     children?: React.ReactNode
 };
 
+import { MouseEventHandler } from "react";
 // Styles
 import "./btn-action-files.scss";
 
 export function BtnActionFiles(props: IBtnActionFiles) {
-    const { icon, alt, title, children } = props;
+    const {onHandleClick, icon, alt, title, children } = props;
     return (
         <>
-            <div className="btn-action-files">
+            <div onClick={onHandleClick} className="btn-action-files">
                 <div className="btn-action-files__wrapper">
                     <img
                         className="btn-action-files__img"

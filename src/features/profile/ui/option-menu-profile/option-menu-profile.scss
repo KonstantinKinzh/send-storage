@@ -1,0 +1,29 @@
+.link-app {
+    text-decoration: none;
+}
+
+.option-menu-profile {
+    margin-bottom: 5px;
+    width: 100%;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    transition: background-color .3s ease;
+
+    &__wrapper {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    &__title {
+        margin-bottom: 2px;
+        font-size: 500;
+        font-size: 17px;
+        color: #000;
+    }
+}
+
+.option-menu-profile:hover {
+    background-color: #dad9d9;
+}

@@ -1,0 +1,44 @@
+.link-app {
+    text-decoration: none;
+}
+
+.option {
+    margin-bottom: 15px;
+    width: 100%;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    transition: background-color .3s ease;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        column-gap: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    &__img {
+        width: 30px;
+        height: 30px;
+    }
+
+    &__title {
+        margin-bottom: 2px;
+        font-size: 500;
+        font-size: 17px;
+        color: #000;
+    }
+
+    &__description {
+        font-size: 400;
+        font-size: 16px;
+        color: #505050;
+    }
+}
+
+.option:hover {
+    background-color: #dad9d9;
+}

@@ -1,0 +1,48 @@
+.link-app {
+    text-decoration: none;
+}
+
+.option-open-files {
+    margin-bottom: 5px;
+    width: 100%;
+    height: auto;
+    padding-left: 50px;
+    padding-right: 10px;
+    cursor: pointer;
+    transition: background-color .3s ease;
+    word-break: break-all;
+
+    &__wrapper {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 8px;
+    }
+
+    &__img {
+        width: 20px;
+        height: 20px;
+    }
+
+    &__title {
+        max-width: 200px;
+        font-size: 500;
+        font-size: 19px;
+        color: #000;
+        word-break: break-all;
+    }
+
+    &__description {
+        font-weight: 400;
+        font-size: 14px;
+    }
+}
+
+.option-open-files:hover {
+    background-color: #dad9d9;
+}

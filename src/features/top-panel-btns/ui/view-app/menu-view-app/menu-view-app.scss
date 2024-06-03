@@ -1,0 +1,15 @@
+.menu-view-app {
+    max-width: 360px;
+    width: 360px;
+    height: auto;
+    position: absolute;
+    right: 0;
+    border: 1px solid #d4d4d4;
+    background-color: #ffffff;
+    z-index: 3;
+
+    &__wrapper {
+        width: 100%;
+        padding-top: 10px;
+    }
+}

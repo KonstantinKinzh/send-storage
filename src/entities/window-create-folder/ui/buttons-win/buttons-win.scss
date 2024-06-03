@@ -1,0 +1,47 @@
+.buttons-win {
+    &__wrapper {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        column-gap: 10px;
+    }
+
+   
+
+    &__cancel {
+        width: 100px;
+        height: 30px;
+        font-weight: 500;
+        font-size: 14px;
+        border-radius: 5px;
+        background-color: #ffdb4a;
+        transition: background-color .3s ease;
+    }
+
+    &__cancel:hover {
+        background-color: #d4d4d4;
+    }
+
+    &__cancel:active {
+        background-color: #aeadad;
+    }
+
+
+    &__create {
+        width: 100px;
+        height: 30px;
+        font-weight: 500;
+        font-size: 14px;
+        border-radius: 5px;
+        background-color: #ffdb4a;
+        transition: background-color .3s ease;
+    }
+    
+    &__create:hover {
+        background-color: #d4d4d4;
+    }
+
+    &__create:active {
+        background-color: #aeadad;
+    }
+}

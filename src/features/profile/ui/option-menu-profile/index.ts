@@ -1,0 +1,1 @@
+export { OptionProfile } from "./option-menu-profile";

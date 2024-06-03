@@ -1,0 +1,52 @@
+.menu-profile {
+    max-width: 360px;
+    width: 260px;
+    height: auto;
+    position: absolute;
+    top: 22px;
+    right: 0;
+    border: 1px solid #d4d4d4;
+    background-color: #ffffff;
+    z-index: 3;
+
+    &__wrapper {
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    &__header {
+        display: flex;
+        column-gap: 15px;
+        margin-bottom: 5px;
+        border-bottom: 1px solid #d4d4d4;
+    }
+
+    &__content {
+        padding-bottom: 10px;
+    }
+
+    &__name-user {
+        margin-bottom: 4px;
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    &__email {
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    &__profile-component  {
+        padding-left: 8px;
+    }
+
+
+    // Класс .profile-component находится в компоненте, 
+    // который оборачивает этот контейнер
+    &__profile-component .profile-component {
+        margin-bottom: 10px;
+        width: 35px;
+        height: 35px;
+        border-radius: 12px;
+    }
+}
